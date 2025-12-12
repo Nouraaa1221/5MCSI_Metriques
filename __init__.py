@@ -2,7 +2,7 @@ from flask import Flask, jsonify, render_template
 from urllib.request import urlopen
 import json
 from datetime import datetime
-import sqlite3  # Si vous en avez besoin pour d'autres ateliers
+import sqlite3  
 
 app = Flask(__name__)
 
